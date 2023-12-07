@@ -1,0 +1,47 @@
+{
+  "title": "RNA Digital Solutions",
+  "header": {
+    "navigationMenu": [
+      "Home", "Analysis", "Digitalmotion", "About us", "Contact"
+    ],
+    "loginLinks": [
+      "Login", "Register"
+    ],
+    "languages": {
+      "Deutsch": "de",
+      "English": "en",
+      "Italiano": "it"
+    }
+  },
+  "footer": {
+    "actionSection": {
+      "startLink": {
+        "label": "Get started",
+        "link": "designforfeeding?new"
+      },
+      "text": "Ready to start?"
+    },
+    "subscribeSection": {
+      "title": "Subscribe to our Newsletter",
+      "emailInputPlaceholder": "E-mail address",
+      "checkboxText": "I have read the information about the privacy policy. I agree that my information and data will be stored electronically in order to answer my inquiry. Note: You can revoke your consent at any time with effect for the future or unsubscribe from the newsletter by sending an e-mail to info@rna.de."
+    },
+    "footerMenu": {
+      "Products": ["Designforfeeding", "Digitalmotion", "ROTU", "PARU", "IoT"],
+      "About us": ["Homepage", "Simulation&Ai", "Services", "About us", "Career"],
+      "Help": ["Contact", "Maps", "Downloads", "Sitemap"]
+    },
+    "termsSection": {
+      "Privacy policy": "policy",
+      "Imprint": "imprint",
+      "Terms": "terms"
+    },
+    "externalLinks": {
+      "youtube": "https://www.youtube.com/channel/UCaA6oRNTbd2D3QI6KT7feXw",
+      "linkedin": "https://www.linkedin.com/company/rnadigitalsolutions/",
+      "global": "https://www.rnadigital.de/"
+
+    },
+    "copyrightText": "Copyright © 2023 RNA Digital Solutions GmbH. All rights reserved."
+  }
+}
