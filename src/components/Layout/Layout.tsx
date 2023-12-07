@@ -10,10 +10,10 @@ export const Layout = () => {
         <section>
             <Header
                 navigationMenu={layoutContent?.header?.navigationMenu}
-                languages={layoutContent?.header?.languages}
-                registerLinks={layoutContent?.header?.loginLinks}
+                languagesSection={layoutContent?.header?.languagesSection}
+                registerLinks={layoutContent?.header?.loginLinksSection}
                 title={layoutContent?.title}
-                logo={<Logo title={layoutContent?.title} />}
+                logo={<Logo title={layoutContent?.title} width="120" height="36" />}
             />
             <main>
                 <Outlet />

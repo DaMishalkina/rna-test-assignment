@@ -4,13 +4,17 @@
     "navigationMenu": [
       "Home", "Analysis", "Digitalmotion", "About us", "Contact"
     ],
-    "loginLinks": [
-      "Login", "Register"
-    ],
-    "languages": {
-      "Deutsch": "de",
-      "English": "en",
-      "Italiano": "it"
+    "loginLinksSection": {
+      "title": "Security",
+      "links": ["Login", "Register"]
+    },
+    "languagesSection": {
+      "title": "Language",
+      "languages": {
+        "Deutsch": "de",
+        "English": "en",
+        "Italiano": "it"
+      }
     }
   },
   "footer": {

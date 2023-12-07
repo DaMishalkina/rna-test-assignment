@@ -1,0 +1,16 @@
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-menu__chosen-option{
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dropdown-icon--reverse {
+    transform: rotate(180deg);
+}

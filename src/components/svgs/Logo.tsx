@@ -16,7 +16,7 @@ export const Logo = ({
             viewBox="0 0 159.44 48"
             xmlns="http://www.w3.org/2000/svg"
             fill={color}
-            id="application-logo"
+            id={title}
         >
             <title>{title}</title>
             <g id="RNA_DS" data-name="RNA DS">
