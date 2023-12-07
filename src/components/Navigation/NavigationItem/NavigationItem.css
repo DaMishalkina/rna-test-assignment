@@ -1,0 +1,10 @@
+.navigation-item {
+    padding: 8px 16px 8px 12px;
+    color: rgb(82, 82, 91);
+    font-weight: 500;
+}
+
+.navigation-item:hover {
+    color: #000;
+    background: #e4e4e7;
+}

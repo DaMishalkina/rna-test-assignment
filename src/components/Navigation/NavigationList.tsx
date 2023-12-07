@@ -2,6 +2,8 @@ import {NavigationItem} from "./NavigationItem/NavigationItem";
 
 import {NavType} from "./types/types";
 
+import "./NavigationList.css";
+
 interface Props {
     navMenu: NavType;
 }

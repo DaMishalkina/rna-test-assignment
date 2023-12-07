@@ -51,11 +51,7 @@ export const Header = ({
                         className="header__button"
                         onClick={() => setIsMenuOpened(prevState => !prevState)}
                     >
-                      {isMenuOpened ? (
-                          <Cancel />
-                      ) : (
-                          <Hamburger />
-                      )}
+                        {isMenuOpened ? <Cancel /> : <Hamburger />}
                     </button>
                     {isMenuOpened && (
                         <div className="header-menu header__menu">
@@ -89,7 +85,7 @@ export const Header = ({
                                                 }))}
                                                 title={registerLinks.title}
                                             />
-                                            <ul>
+                                            <ul className="header-dropdown--mobile">
                                                 {registerLinks.links.map((link) => (
                                                     <li key={link}>
                                                         <Link to={replaceSpaceWithUnderline(link)}>{link}</Link>
